@@ -6,4 +6,7 @@
   <b><%= @article.body %></b>
 </p>
 
-<%= link_to "一覧へ戻る", articles_path %>
+<p>
+  <%= link_to "一覧へ戻る", articles_path %>
+  <%= link_to "編集", edit_article_path(@article) %>
+</p>
